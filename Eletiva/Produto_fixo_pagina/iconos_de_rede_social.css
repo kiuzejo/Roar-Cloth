@@ -1,0 +1,88 @@
+.iconos_redes_sociais{
+
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+.iconos_redes_sociais li{
+
+    --cor1:#ff258e;
+    --cor2:#ffcf0f;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    box-shadow: 0 8px 20px rgba(240, 240, 240, 0.425);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    transition: 0.3s;
+
+}
+
+.iconos_redes_sociais li span{
+
+    position: absolute;
+
+}
+
+.iconos_redes_sociais li:hover{
+
+    width:230px;
+    border-radius: 65px;
+
+}
+
+
+
+.iconos_redes_sociais li .icon{
+
+    color: rgb(95, 95, 95);
+    font-size: 2.6em;
+    transition: 0.2s;
+
+}
+
+.iconos_redes_sociais li .texto{
+
+    color: rgb(241, 249, 255);
+    font-size: 2em;
+    transform: scale(0);
+    transition: 0.2s;
+    transition-delay: 0.2s;
+
+}
+
+.iconos_redes_sociais li:hover .icon{
+
+    transform: scale(0);
+
+}
+
+.iconos_redes_sociais li:hover .texto{
+
+    transform:scale(1);
+
+}
+
+.iconos_redes_sociais li::before{
+
+    content:'';
+    position: absolute;
+    background-image: linear-gradient(45deg ,var(--cor1), var(--cor2));
+    inset: 0;
+    opacity: 0;
+
+}
+
+.iconos_redes_sociais li:hover::before{
+
+    opacity: 1;
+    border-radius:65px;
+
+}

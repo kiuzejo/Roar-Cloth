@@ -1,0 +1,46 @@
+@media (max-width:300px){
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+
+.card{
+
+    display: flex;
+    flex-direction: row !important;
+    gap:20px;
+
+}
+
+.card-img-top{
+
+height: 50% !important;
+width: 40% !important;
+
+}
+
+.card-title{
+
+    font-size: 0.9em;
+
+}
+
+.card-text{
+
+    font-size:0.6em !important;
+
+}
+
+.btn{
+
+    --bs-btn-font-size:0.8em !important;
+
+}
+
+}

@@ -1,0 +1,72 @@
+    body {
+        background-color: #101010 !important;
+        font-family: Arial, sans-serif;
+    }
+
+    .logo{
+        
+        height: 20%;
+        width: 20%;
+    
+    }
+
+    .bg-escuro{
+    
+        background-color: #101010 !important;
+    
+    }
+    
+    #div_header_1{
+    
+        padding-bottom: 1% !important;
+        display: flex;
+        align-items: center;
+        gap:3%;
+    
+    }
+
+    .margin-left{
+    
+        padding-top:0% !important;
+        padding-left: 1em !important;
+    
+    }
+    
+    header{
+    
+        border-bottom: Solid #756400b0 !important;
+        margin-bottom: 10%;
+    
+    }
+    
+    .titulo{
+    
+     color:rgb(238, 190, 2);
+     margin-bottom: 30%;
+    
+    }
+    
+    #subtitulo{
+    
+        color:rgb(238, 190, 2) !important;
+        font-size: 2em !important;
+        font-weight: 300 !important;
+        font-style: normal !important;
+    
+    }
+    
+    #subtitulo-2{
+    
+        color:rgb(238, 190, 2) !important;
+        font-size: 1em !important;
+        font-weight: 100!important;
+        font-style:oblique !important;
+    
+    }
+    
+    .letra{
+    
+    color:aliceblue;
+    
+    }
+
