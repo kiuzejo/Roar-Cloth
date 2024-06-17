@@ -1,9 +1,9 @@
 @media (max-width:300px) {
 
     body {
-        background-color: #101010;
+        background-color: #101010 !important;
         font-family: Arial, sans-serif;
-        background-image: url("Imagens_respectivas_ao_site/camisas1-.jpg");
+        
         background-size: cover; /* Redimensiona a imagem para cobrir todo o contêiner */
         background-position: center;
     }
@@ -73,5 +73,429 @@
     color:aliceblue;
     
     }
+
+}
+
+@media (min-width:301px) and (max-width: 720px) {
+
+    body {
+        background-color: #101010 !important;
+        font-family: Arial, sans-serif;
+        
+        background-size: cover; /* Redimensiona a imagem para cobrir todo o contêiner */
+        background-position: center;
+    }
+    
+    #div_header_1{
+        
+        padding-top: 2%;
+        padding-bottom: 1% !important;
+        display: flex;
+        align-items: center;
+        gap:3%;
+    
+    }
+    
+    header{
+    
+        border-bottom: Solid #756400b0 !important;
+    
+    }
+
+    .logo{
+        
+        height: 20%;
+        width: 20%;
+    
+    }
+
+    .bg-escuro{
+        
+        background-color: #101010 !important;
+    
+    }
+
+    .margin-left{
+        
+        padding-top:0% !important;
+        padding-left: 1em !important;
+    
+    }
+
+    .div-redesocial{
+
+        margin-bottom:0px;
+        padding-top:15px ;
+        padding-bottom: 10px;
+        width: 100vw;
+
+    }
+
+    .titulo{
+    
+        color:rgb(238, 190, 2);
+        margin-bottom: 18%;
+       
+       }
+       
+       #subtitulo{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 2.3em !important;
+           font-weight: 300 !important;
+           font-style: normal !important;
+       
+       }
+       
+       #subtitulo-2{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 1.2em !important;
+           font-weight: 100!important;
+           font-style:oblique !important;
+       
+       }
+       
+       .letra{
+       
+       color:aliceblue;
+       
+       }
+
+
+
+
+}
+
+
+@media (min-width:721px) and (max-width: 1200px) {
+
+    #div_header_1{
+    
+        padding-bottom: 1% !important;
+        display: flex;
+        align-items: center;
+        gap:3%;
+    
+    }
+    
+    header{
+    
+        border-bottom: Solid #756400b0 !important;
+    
+    }
+
+    .logo{
+
+        height: 20% !important;
+        width: 20%!important;
+    
+    }
+
+    .bg-escuro{
+
+        background-color: #101010 !important;
+    
+    }
+
+    .margin-left{
+
+        padding-top:0% !important;
+        padding-left: 1em !important;
+    
+    }
+
+    body {
+        background-color: #101010 !important;
+        font-family: Arial, sans-serif;
+        
+        background-size: cover; /* Redimensiona a imagem para cobrir todo o contêiner */
+        background-position: center;
+    }
+
+    .div-redesocial{
+
+        margin-bottom:0px;
+        padding-top: 40px;
+        width: 100vw;
+
+    }
+
+    .titulo{
+    
+        color:rgb(238, 190, 2);
+        margin-bottom: 18%;
+       
+       }
+       
+       #subtitulo{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 2.5em !important;
+           font-weight: 300 !important;
+           font-style: normal !important;
+       
+       }
+       
+       #subtitulo-2{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 1.5em !important;
+           font-weight: 100!important;
+           font-style:oblique !important;
+       
+       }
+       
+       .letra{
+       
+       color:aliceblue;
+       
+       }
+
+
+
+}
+
+@media (min-width:1201px) and (max-width: 1487px) {
+
+    body {
+        background-color: #101010 !important;
+        font-family: Arial, sans-serif;
+        
+        background-size: cover; /* Redimensiona a imagem para cobrir todo o contêiner */
+        background-position: center;
+    }
+
+    .div-redesocial{
+
+        margin-bottom:0px;
+        padding-left: 2%;
+        padding-top: 50px;
+        width: 100vw;
+
+    }
+
+    .titulo{
+
+        color:rgb(238, 190, 2);
+        margin-bottom: 8%;
+        font-size: 4em;
+        margin-top: 4%;
+       
+       }
+       
+       #subtitulo{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 3.5em !important;
+           font-weight: 300 !important;
+           font-style: normal !important;
+       
+       }
+       
+       #subtitulo-2{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 2.6em !important;
+           font-weight: 100!important;
+           font-style:oblique !important;
+       
+       }
+       
+       .letra{
+       
+       color:aliceblue;
+
+       }
+
+       .navbar-toggler-icon{
+
+        height: 30px !important;
+        width: 50px !important;
+
+    }
+
+    .navbar-toggler{
+
+        height: 80px !important;
+        width: 100px !important;
+
+    }
+
+    .navbar-dark{
+
+        height: 3% !important;
+
+    }
+    
+    #div_header_1{
+    
+        padding-bottom: 1% !important;
+        display: flex;
+        align-items: center;
+        gap:4%;
+    
+    }
+    
+    header{
+    
+        border-bottom: Solid #756400b0 !important;
+    
+    }
+
+    .item-de-cima{
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .item-de-baixo{
+
+        padding-bottom: 2%;
+
+    }
+
+    .margin-left{
+
+        padding-top:0% !important;
+        padding-left: 2% !important;
+    
+    }
+    
+    .logo{
+    
+        height: 20%;
+        width: 20%;
+    
+    }
+
+    .bg-escuro{
+    
+        background-color: #101010 !important;
+    
+    }
+
+       
+}
+
+
+@media (min-width:1488px){
+
+    .navbar-toggler-icon{
+
+        height: 40px !important;
+        width: 60px !important;
+
+    }
+
+    .navbar-toggler{
+
+        height: 95px !important;
+        width: 120px !important;
+
+    }
+
+    .navbar-dark{
+
+        height: 4% !important;
+
+    }
+    
+    #div_header_1{
+    
+        padding-bottom: 1% !important;
+        display: flex;
+        align-items: center;
+        gap:3%;
+    
+    }
+    
+    header{
+    
+        border-bottom: Solid #756400b0 !important;
+    
+    }
+
+    .item-de-cima{
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .item-de-baixo{
+
+        padding-bottom: 2%;
+
+    }
+
+    .margin-left{
+
+        padding-top:0% !important;
+        padding-left: 2% !important;
+    
+    }
+    
+    .logo{
+    
+        height: 250px !important;
+        width: 250px !important;
+    
+    }
+
+    .bg-escuro{
+    
+        background-color: #101010 !important;
+    
+    }
+
+    body {
+        background-color: #101010 !important;
+        font-family: Arial, sans-serif;
+        
+        background-size: cover; /* Redimensiona a imagem para cobrir todo o contêiner */
+        background-position: center;
+    }
+
+    .div-redesocial{
+
+        padding-left: 5%;
+        margin-bottom:0px !important;
+        padding-top: 50px;
+        width: 100vw;
+
+    }
+
+    .titulo{
+
+        color:rgb(238, 190, 2);
+        margin-bottom: 8%;
+        font-size: 4em;
+        margin-top: 4%;
+       
+       }
+       
+       #subtitulo{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 4em !important;
+           font-weight: 300 !important;
+           font-style: normal !important;
+       
+       }
+       
+       #subtitulo-2{
+       
+           color:rgb(238, 190, 2) !important;
+           font-size: 3em !important;
+           font-weight: 100!important;
+           font-style:oblique !important;
+       
+       }
+       
+       .letra{
+       
+       color:aliceblue;
+       
+       }
 
 }
