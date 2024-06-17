@@ -44,3 +44,32 @@ width: 40% !important;
 }
 
 }
+
+
+@media (min-width:301px) and (max-width: 720px) {
+
+
+    
+
+}
+
+
+@media (min-width:721px) and (max-width: 1200px) {
+
+
+
+
+}
+
+@media (min-width:1201px) and (max-width: 1487px) {
+
+
+
+
+}
+
+@media (min-width:1488px){
+
+
+
+}
